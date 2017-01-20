@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/ncrl/Desktop/Work/pcie_turbo/pcie_turbo.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="16" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject db_ref_id="1" fp_name="turbo_decoders[0].chnl_turbo_decoder_inst/rst_dec" type="logic">
+      <obj_property name="ElementShortName">turbo_decoders[0].chnl_turbo_decoder_inst/rst_dec</obj_property>
+      <obj_property name="ObjectShortName">turbo_decoders[0].chnl_turbo_decoder_inst/rst_dec</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="turbo_decoders[0].chnl_turbo_decoder_inst/start_decode" type="logic">
+      <obj_property name="ElementShortName">turbo_decoders[0].chnl_turbo_decoder_inst/start_decode</obj_property>
+      <obj_property name="ObjectShortName">turbo_decoders[0].chnl_turbo_decoder_inst/start_decode</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="turbo_decoders[0].chnl_turbo_decoder_inst/code_length" type="array">
+      <obj_property name="ElementShortName">turbo_decoders[0].chnl_turbo_decoder_inst/code_length[12:0]</obj_property>
+      <obj_property name="ObjectShortName">turbo_decoders[0].chnl_turbo_decoder_inst/code_length[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="turbo_decoders[0].chnl_turbo_decoder_inst/parallel_degree" type="array">
+      <obj_property name="ElementShortName">turbo_decoders[0].chnl_turbo_decoder_inst/parallel_degree[3:0]</obj_property>
+      <obj_property name="ObjectShortName">turbo_decoders[0].chnl_turbo_decoder_inst/parallel_degree[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="turbo_decoders[0].chnl_turbo_decoder_inst/iter_max" type="array">
+      <obj_property name="ElementShortName">turbo_decoders[0].chnl_turbo_decoder_inst/iter_max[3:0]</obj_property>
+      <obj_property name="ObjectShortName">turbo_decoders[0].chnl_turbo_decoder_inst/iter_max[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="turbo_decoders[0].chnl_turbo_decoder_inst/read_addr_system" type="array">
+      <obj_property name="ElementShortName">turbo_decoders[0].chnl_turbo_decoder_inst/read_addr_system[9:0]</obj_property>
+      <obj_property name="ObjectShortName">turbo_decoders[0].chnl_turbo_decoder_inst/read_addr_system[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="turbo_decoders[0].chnl_turbo_decoder_inst/system_out_ram" type="array">
+      <obj_property name="ElementShortName">turbo_decoders[0].chnl_turbo_decoder_inst/system_out_ram[55:0]</obj_property>
+      <obj_property name="ObjectShortName">turbo_decoders[0].chnl_turbo_decoder_inst/system_out_ram[55:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="turbo_decoders[0].chnl_turbo_decoder_inst/read_addr_parity" type="array">
+      <obj_property name="ElementShortName">turbo_decoders[0].chnl_turbo_decoder_inst/read_addr_parity[9:0]</obj_property>
+      <obj_property name="ObjectShortName">turbo_decoders[0].chnl_turbo_decoder_inst/read_addr_parity[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="turbo_decoders[0].chnl_turbo_decoder_inst/parity0_out_ram" type="array">
+      <obj_property name="ElementShortName">turbo_decoders[0].chnl_turbo_decoder_inst/parity0_out_ram[55:0]</obj_property>
+      <obj_property name="ObjectShortName">turbo_decoders[0].chnl_turbo_decoder_inst/parity0_out_ram[55:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="turbo_decoders[0].chnl_turbo_decoder_inst/parity1_out_ram" type="array">
+      <obj_property name="ElementShortName">turbo_decoders[0].chnl_turbo_decoder_inst/parity1_out_ram[55:0]</obj_property>
+      <obj_property name="ObjectShortName">turbo_decoders[0].chnl_turbo_decoder_inst/parity1_out_ram[55:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="turbo_decoders[0].chnl_turbo_decoder_inst/read_addr_tail" type="array">
+      <obj_property name="ElementShortName">turbo_decoders[0].chnl_turbo_decoder_inst/read_addr_tail[2:0]</obj_property>
+      <obj_property name="ObjectShortName">turbo_decoders[0].chnl_turbo_decoder_inst/read_addr_tail[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="turbo_decoders[0].chnl_turbo_decoder_inst/tail_out_ram" type="array">
+      <obj_property name="ElementShortName">turbo_decoders[0].chnl_turbo_decoder_inst/tail_out_ram[13:0]</obj_property>
+      <obj_property name="ObjectShortName">turbo_decoders[0].chnl_turbo_decoder_inst/tail_out_ram[13:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="turbo_decoders[0].chnl_turbo_decoder_inst/crc_start" type="logic">
+      <obj_property name="ElementShortName">turbo_decoders[0].chnl_turbo_decoder_inst/crc_start</obj_property>
+      <obj_property name="ObjectShortName">turbo_decoders[0].chnl_turbo_decoder_inst/crc_start</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="turbo_decoders[0].chnl_turbo_decoder_inst/end_decode" type="logic">
+      <obj_property name="ElementShortName">turbo_decoders[0].chnl_turbo_decoder_inst/end_decode</obj_property>
+      <obj_property name="ObjectShortName">turbo_decoders[0].chnl_turbo_decoder_inst/end_decode</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="turbo_decoders[0].chnl_turbo_decoder_inst/D_addr" type="array">
+      <obj_property name="ElementShortName">turbo_decoders[0].chnl_turbo_decoder_inst/D_addr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">turbo_decoders[0].chnl_turbo_decoder_inst/D_addr[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="turbo_decoders[0].chnl_turbo_decoder_inst/D" type="array">
+      <obj_property name="ElementShortName">turbo_decoders[0].chnl_turbo_decoder_inst/D[7:0]</obj_property>
+      <obj_property name="ObjectShortName">turbo_decoders[0].chnl_turbo_decoder_inst/D[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

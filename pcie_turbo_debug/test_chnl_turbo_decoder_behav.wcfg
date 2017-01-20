@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_chnl_turbo_decoder_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_chnl_turbo_decoder" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="22" />
+   <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/USR_CLK" type="logic">
+      <obj_property name="ElementShortName">USR_CLK</obj_property>
+      <obj_property name="ObjectShortName">USR_CLK</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/clk_pcie" type="logic">
+      <obj_property name="ElementShortName">clk_pcie</obj_property>
+      <obj_property name="ObjectShortName">clk_pcie</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/clk_dec" type="logic">
+      <obj_property name="ElementShortName">clk_dec</obj_property>
+      <obj_property name="ObjectShortName">clk_dec</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/clk_div" type="logic">
+      <obj_property name="ElementShortName">clk_div</obj_property>
+      <obj_property name="ObjectShortName">clk_div</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/CHNL_RX" type="logic">
+      <obj_property name="ElementShortName">CHNL_RX</obj_property>
+      <obj_property name="ObjectShortName">CHNL_RX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/CHNL_RX_DATA_VALID" type="logic">
+      <obj_property name="ElementShortName">CHNL_RX_DATA_VALID</obj_property>
+      <obj_property name="ObjectShortName">CHNL_RX_DATA_VALID</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/State" type="array">
+      <obj_property name="ElementShortName">State[4:0]</obj_property>
+      <obj_property name="ObjectShortName">State[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/rLen" type="array">
+      <obj_property name="ElementShortName">rLen[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rLen[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/rCountSys" type="array">
+      <obj_property name="ElementShortName">rCountSys[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rCountSys[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/rCountTail" type="array">
+      <obj_property name="ElementShortName">rCountTail[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rCountTail[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/rCountOver" type="array">
+      <obj_property name="ElementShortName">rCountOver[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rCountOver[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tLen" type="array">
+      <obj_property name="ElementShortName">tLen[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tLen[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/CHNL_TX_DATA_VALID" type="logic">
+      <obj_property name="ElementShortName">CHNL_TX_DATA_VALID</obj_property>
+      <obj_property name="ObjectShortName">CHNL_TX_DATA_VALID</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tCount" type="array">
+      <obj_property name="ElementShortName">tCount[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tCount[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/read_addr_D" type="array">
+      <obj_property name="ElementShortName">read_addr_D[10:0]</obj_property>
+      <obj_property name="ObjectShortName">read_addr_D[10:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData" type="array">
+      <obj_property name="ElementShortName">tData[127:0]</obj_property>
+      <obj_property name="ObjectShortName">tData[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="vbus4835" type="vbus">
+      <obj_property name="label">D1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[127]" type="logic">
+         <obj_property name="ElementShortName">[127]</obj_property>
+         <obj_property name="ObjectShortName">tData[127]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[126]" type="logic">
+         <obj_property name="ElementShortName">[126]</obj_property>
+         <obj_property name="ObjectShortName">tData[126]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[125]" type="logic">
+         <obj_property name="ElementShortName">[125]</obj_property>
+         <obj_property name="ObjectShortName">tData[125]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[124]" type="logic">
+         <obj_property name="ElementShortName">[124]</obj_property>
+         <obj_property name="ObjectShortName">tData[124]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[123]" type="logic">
+         <obj_property name="ElementShortName">[123]</obj_property>
+         <obj_property name="ObjectShortName">tData[123]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[122]" type="logic">
+         <obj_property name="ElementShortName">[122]</obj_property>
+         <obj_property name="ObjectShortName">tData[122]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[121]" type="logic">
+         <obj_property name="ElementShortName">[121]</obj_property>
+         <obj_property name="ObjectShortName">tData[121]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[120]" type="logic">
+         <obj_property name="ElementShortName">[120]</obj_property>
+         <obj_property name="ObjectShortName">tData[120]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[119]" type="logic">
+         <obj_property name="ElementShortName">[119]</obj_property>
+         <obj_property name="ObjectShortName">tData[119]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[118]" type="logic">
+         <obj_property name="ElementShortName">[118]</obj_property>
+         <obj_property name="ObjectShortName">tData[118]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[117]" type="logic">
+         <obj_property name="ElementShortName">[117]</obj_property>
+         <obj_property name="ObjectShortName">tData[117]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[116]" type="logic">
+         <obj_property name="ElementShortName">[116]</obj_property>
+         <obj_property name="ObjectShortName">tData[116]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[115]" type="logic">
+         <obj_property name="ElementShortName">[115]</obj_property>
+         <obj_property name="ObjectShortName">tData[115]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[114]" type="logic">
+         <obj_property name="ElementShortName">[114]</obj_property>
+         <obj_property name="ObjectShortName">tData[114]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[113]" type="logic">
+         <obj_property name="ElementShortName">[113]</obj_property>
+         <obj_property name="ObjectShortName">tData[113]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[112]" type="logic">
+         <obj_property name="ElementShortName">[112]</obj_property>
+         <obj_property name="ObjectShortName">tData[112]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[111]" type="logic">
+         <obj_property name="ElementShortName">[111]</obj_property>
+         <obj_property name="ObjectShortName">tData[111]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[110]" type="logic">
+         <obj_property name="ElementShortName">[110]</obj_property>
+         <obj_property name="ObjectShortName">tData[110]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[109]" type="logic">
+         <obj_property name="ElementShortName">[109]</obj_property>
+         <obj_property name="ObjectShortName">tData[109]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[108]" type="logic">
+         <obj_property name="ElementShortName">[108]</obj_property>
+         <obj_property name="ObjectShortName">tData[108]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[107]" type="logic">
+         <obj_property name="ElementShortName">[107]</obj_property>
+         <obj_property name="ObjectShortName">tData[107]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[106]" type="logic">
+         <obj_property name="ElementShortName">[106]</obj_property>
+         <obj_property name="ObjectShortName">tData[106]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[105]" type="logic">
+         <obj_property name="ElementShortName">[105]</obj_property>
+         <obj_property name="ObjectShortName">tData[105]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[104]" type="logic">
+         <obj_property name="ElementShortName">[104]</obj_property>
+         <obj_property name="ObjectShortName">tData[104]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[103]" type="logic">
+         <obj_property name="ElementShortName">[103]</obj_property>
+         <obj_property name="ObjectShortName">tData[103]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[102]" type="logic">
+         <obj_property name="ElementShortName">[102]</obj_property>
+         <obj_property name="ObjectShortName">tData[102]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[101]" type="logic">
+         <obj_property name="ElementShortName">[101]</obj_property>
+         <obj_property name="ObjectShortName">tData[101]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[100]" type="logic">
+         <obj_property name="ElementShortName">[100]</obj_property>
+         <obj_property name="ObjectShortName">tData[100]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[99]" type="logic">
+         <obj_property name="ElementShortName">[99]</obj_property>
+         <obj_property name="ObjectShortName">tData[99]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[98]" type="logic">
+         <obj_property name="ElementShortName">[98]</obj_property>
+         <obj_property name="ObjectShortName">tData[98]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[97]" type="logic">
+         <obj_property name="ElementShortName">[97]</obj_property>
+         <obj_property name="ObjectShortName">tData[97]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[96]" type="logic">
+         <obj_property name="ElementShortName">[96]</obj_property>
+         <obj_property name="ObjectShortName">tData[96]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[95]" type="logic">
+         <obj_property name="ElementShortName">[95]</obj_property>
+         <obj_property name="ObjectShortName">tData[95]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[94]" type="logic">
+         <obj_property name="ElementShortName">[94]</obj_property>
+         <obj_property name="ObjectShortName">tData[94]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[93]" type="logic">
+         <obj_property name="ElementShortName">[93]</obj_property>
+         <obj_property name="ObjectShortName">tData[93]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[92]" type="logic">
+         <obj_property name="ElementShortName">[92]</obj_property>
+         <obj_property name="ObjectShortName">tData[92]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[91]" type="logic">
+         <obj_property name="ElementShortName">[91]</obj_property>
+         <obj_property name="ObjectShortName">tData[91]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[90]" type="logic">
+         <obj_property name="ElementShortName">[90]</obj_property>
+         <obj_property name="ObjectShortName">tData[90]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[89]" type="logic">
+         <obj_property name="ElementShortName">[89]</obj_property>
+         <obj_property name="ObjectShortName">tData[89]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[88]" type="logic">
+         <obj_property name="ElementShortName">[88]</obj_property>
+         <obj_property name="ObjectShortName">tData[88]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[87]" type="logic">
+         <obj_property name="ElementShortName">[87]</obj_property>
+         <obj_property name="ObjectShortName">tData[87]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[86]" type="logic">
+         <obj_property name="ElementShortName">[86]</obj_property>
+         <obj_property name="ObjectShortName">tData[86]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[85]" type="logic">
+         <obj_property name="ElementShortName">[85]</obj_property>
+         <obj_property name="ObjectShortName">tData[85]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[84]" type="logic">
+         <obj_property name="ElementShortName">[84]</obj_property>
+         <obj_property name="ObjectShortName">tData[84]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[83]" type="logic">
+         <obj_property name="ElementShortName">[83]</obj_property>
+         <obj_property name="ObjectShortName">tData[83]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[82]" type="logic">
+         <obj_property name="ElementShortName">[82]</obj_property>
+         <obj_property name="ObjectShortName">tData[82]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[81]" type="logic">
+         <obj_property name="ElementShortName">[81]</obj_property>
+         <obj_property name="ObjectShortName">tData[81]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[80]" type="logic">
+         <obj_property name="ElementShortName">[80]</obj_property>
+         <obj_property name="ObjectShortName">tData[80]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[79]" type="logic">
+         <obj_property name="ElementShortName">[79]</obj_property>
+         <obj_property name="ObjectShortName">tData[79]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[78]" type="logic">
+         <obj_property name="ElementShortName">[78]</obj_property>
+         <obj_property name="ObjectShortName">tData[78]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[77]" type="logic">
+         <obj_property name="ElementShortName">[77]</obj_property>
+         <obj_property name="ObjectShortName">tData[77]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[76]" type="logic">
+         <obj_property name="ElementShortName">[76]</obj_property>
+         <obj_property name="ObjectShortName">tData[76]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[75]" type="logic">
+         <obj_property name="ElementShortName">[75]</obj_property>
+         <obj_property name="ObjectShortName">tData[75]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[74]" type="logic">
+         <obj_property name="ElementShortName">[74]</obj_property>
+         <obj_property name="ObjectShortName">tData[74]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[73]" type="logic">
+         <obj_property name="ElementShortName">[73]</obj_property>
+         <obj_property name="ObjectShortName">tData[73]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[72]" type="logic">
+         <obj_property name="ElementShortName">[72]</obj_property>
+         <obj_property name="ObjectShortName">tData[72]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[71]" type="logic">
+         <obj_property name="ElementShortName">[71]</obj_property>
+         <obj_property name="ObjectShortName">tData[71]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[70]" type="logic">
+         <obj_property name="ElementShortName">[70]</obj_property>
+         <obj_property name="ObjectShortName">tData[70]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[69]" type="logic">
+         <obj_property name="ElementShortName">[69]</obj_property>
+         <obj_property name="ObjectShortName">tData[69]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[68]" type="logic">
+         <obj_property name="ElementShortName">[68]</obj_property>
+         <obj_property name="ObjectShortName">tData[68]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[67]" type="logic">
+         <obj_property name="ElementShortName">[67]</obj_property>
+         <obj_property name="ObjectShortName">tData[67]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[66]" type="logic">
+         <obj_property name="ElementShortName">[66]</obj_property>
+         <obj_property name="ObjectShortName">tData[66]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[65]" type="logic">
+         <obj_property name="ElementShortName">[65]</obj_property>
+         <obj_property name="ObjectShortName">tData[65]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[64]" type="logic">
+         <obj_property name="ElementShortName">[64]</obj_property>
+         <obj_property name="ObjectShortName">tData[64]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="vbus4770" type="vbus">
+      <obj_property name="label">D0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[63]" type="logic">
+         <obj_property name="ElementShortName">[63]</obj_property>
+         <obj_property name="ObjectShortName">tData[63]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[62]" type="logic">
+         <obj_property name="ElementShortName">[62]</obj_property>
+         <obj_property name="ObjectShortName">tData[62]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[61]" type="logic">
+         <obj_property name="ElementShortName">[61]</obj_property>
+         <obj_property name="ObjectShortName">tData[61]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[60]" type="logic">
+         <obj_property name="ElementShortName">[60]</obj_property>
+         <obj_property name="ObjectShortName">tData[60]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[59]" type="logic">
+         <obj_property name="ElementShortName">[59]</obj_property>
+         <obj_property name="ObjectShortName">tData[59]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[58]" type="logic">
+         <obj_property name="ElementShortName">[58]</obj_property>
+         <obj_property name="ObjectShortName">tData[58]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[57]" type="logic">
+         <obj_property name="ElementShortName">[57]</obj_property>
+         <obj_property name="ObjectShortName">tData[57]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[56]" type="logic">
+         <obj_property name="ElementShortName">[56]</obj_property>
+         <obj_property name="ObjectShortName">tData[56]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[55]" type="logic">
+         <obj_property name="ElementShortName">[55]</obj_property>
+         <obj_property name="ObjectShortName">tData[55]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[54]" type="logic">
+         <obj_property name="ElementShortName">[54]</obj_property>
+         <obj_property name="ObjectShortName">tData[54]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[53]" type="logic">
+         <obj_property name="ElementShortName">[53]</obj_property>
+         <obj_property name="ObjectShortName">tData[53]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[52]" type="logic">
+         <obj_property name="ElementShortName">[52]</obj_property>
+         <obj_property name="ObjectShortName">tData[52]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[51]" type="logic">
+         <obj_property name="ElementShortName">[51]</obj_property>
+         <obj_property name="ObjectShortName">tData[51]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[50]" type="logic">
+         <obj_property name="ElementShortName">[50]</obj_property>
+         <obj_property name="ObjectShortName">tData[50]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[49]" type="logic">
+         <obj_property name="ElementShortName">[49]</obj_property>
+         <obj_property name="ObjectShortName">tData[49]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[48]" type="logic">
+         <obj_property name="ElementShortName">[48]</obj_property>
+         <obj_property name="ObjectShortName">tData[48]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[47]" type="logic">
+         <obj_property name="ElementShortName">[47]</obj_property>
+         <obj_property name="ObjectShortName">tData[47]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[46]" type="logic">
+         <obj_property name="ElementShortName">[46]</obj_property>
+         <obj_property name="ObjectShortName">tData[46]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[45]" type="logic">
+         <obj_property name="ElementShortName">[45]</obj_property>
+         <obj_property name="ObjectShortName">tData[45]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[44]" type="logic">
+         <obj_property name="ElementShortName">[44]</obj_property>
+         <obj_property name="ObjectShortName">tData[44]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[43]" type="logic">
+         <obj_property name="ElementShortName">[43]</obj_property>
+         <obj_property name="ObjectShortName">tData[43]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[42]" type="logic">
+         <obj_property name="ElementShortName">[42]</obj_property>
+         <obj_property name="ObjectShortName">tData[42]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[41]" type="logic">
+         <obj_property name="ElementShortName">[41]</obj_property>
+         <obj_property name="ObjectShortName">tData[41]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[40]" type="logic">
+         <obj_property name="ElementShortName">[40]</obj_property>
+         <obj_property name="ObjectShortName">tData[40]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[39]" type="logic">
+         <obj_property name="ElementShortName">[39]</obj_property>
+         <obj_property name="ObjectShortName">tData[39]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[38]" type="logic">
+         <obj_property name="ElementShortName">[38]</obj_property>
+         <obj_property name="ObjectShortName">tData[38]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[37]" type="logic">
+         <obj_property name="ElementShortName">[37]</obj_property>
+         <obj_property name="ObjectShortName">tData[37]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[36]" type="logic">
+         <obj_property name="ElementShortName">[36]</obj_property>
+         <obj_property name="ObjectShortName">tData[36]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[35]" type="logic">
+         <obj_property name="ElementShortName">[35]</obj_property>
+         <obj_property name="ObjectShortName">tData[35]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[34]" type="logic">
+         <obj_property name="ElementShortName">[34]</obj_property>
+         <obj_property name="ObjectShortName">tData[34]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[33]" type="logic">
+         <obj_property name="ElementShortName">[33]</obj_property>
+         <obj_property name="ObjectShortName">tData[33]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[32]" type="logic">
+         <obj_property name="ElementShortName">[32]</obj_property>
+         <obj_property name="ObjectShortName">tData[32]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[31]" type="logic">
+         <obj_property name="ElementShortName">[31]</obj_property>
+         <obj_property name="ObjectShortName">tData[31]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[30]" type="logic">
+         <obj_property name="ElementShortName">[30]</obj_property>
+         <obj_property name="ObjectShortName">tData[30]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[29]" type="logic">
+         <obj_property name="ElementShortName">[29]</obj_property>
+         <obj_property name="ObjectShortName">tData[29]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[28]" type="logic">
+         <obj_property name="ElementShortName">[28]</obj_property>
+         <obj_property name="ObjectShortName">tData[28]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[27]" type="logic">
+         <obj_property name="ElementShortName">[27]</obj_property>
+         <obj_property name="ObjectShortName">tData[27]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[26]" type="logic">
+         <obj_property name="ElementShortName">[26]</obj_property>
+         <obj_property name="ObjectShortName">tData[26]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[25]" type="logic">
+         <obj_property name="ElementShortName">[25]</obj_property>
+         <obj_property name="ObjectShortName">tData[25]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[24]" type="logic">
+         <obj_property name="ElementShortName">[24]</obj_property>
+         <obj_property name="ObjectShortName">tData[24]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[23]" type="logic">
+         <obj_property name="ElementShortName">[23]</obj_property>
+         <obj_property name="ObjectShortName">tData[23]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[22]" type="logic">
+         <obj_property name="ElementShortName">[22]</obj_property>
+         <obj_property name="ObjectShortName">tData[22]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[21]" type="logic">
+         <obj_property name="ElementShortName">[21]</obj_property>
+         <obj_property name="ObjectShortName">tData[21]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[20]" type="logic">
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">tData[20]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[19]" type="logic">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">tData[19]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[18]" type="logic">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">tData[18]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[17]" type="logic">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">tData[17]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[16]" type="logic">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">tData[16]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">tData[15]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[14]" type="logic">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">tData[14]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[13]" type="logic">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">tData[13]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[12]" type="logic">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">tData[12]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">tData[11]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">tData[10]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">tData[9]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">tData[8]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">tData[7]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">tData[6]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">tData[5]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">tData[4]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[3]" type="logic">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">tData[3]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">tData[2]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">tData[1]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/tData[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">tData[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group15577" type="group">
+      <obj_property name="label">Interface</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/cb_num" type="array">
+         <obj_property name="ElementShortName">cb_num[3:0]</obj_property>
+         <obj_property name="ObjectShortName">cb_num[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/cb_cnt" type="array">
+         <obj_property name="ElementShortName">cb_cnt[3:0]</obj_property>
+         <obj_property name="ObjectShortName">cb_cnt[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/write_en_system" type="logic">
+         <obj_property name="ElementShortName">write_en_system</obj_property>
+         <obj_property name="ObjectShortName">write_en_system</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/write_addr_system" type="array">
+         <obj_property name="ElementShortName">write_addr_system[13:0]</obj_property>
+         <obj_property name="ObjectShortName">write_addr_system[13:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/rSystem" type="array">
+         <obj_property name="ElementShortName">rSystem[127:0]</obj_property>
+         <obj_property name="ObjectShortName">rSystem[127:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/write_en_parity_0" type="logic">
+         <obj_property name="ElementShortName">write_en_parity_0</obj_property>
+         <obj_property name="ObjectShortName">write_en_parity_0</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/write_addr_parity_0" type="array">
+         <obj_property name="ElementShortName">write_addr_parity_0[13:0]</obj_property>
+         <obj_property name="ObjectShortName">write_addr_parity_0[13:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/rParity0" type="array">
+         <obj_property name="ElementShortName">rParity0[127:0]</obj_property>
+         <obj_property name="ObjectShortName">rParity0[127:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/write_en_parity_1" type="logic">
+         <obj_property name="ElementShortName">write_en_parity_1</obj_property>
+         <obj_property name="ObjectShortName">write_en_parity_1</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/write_addr_parity_1" type="array">
+         <obj_property name="ElementShortName">write_addr_parity_1[13:0]</obj_property>
+         <obj_property name="ObjectShortName">write_addr_parity_1[13:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/rParity1" type="array">
+         <obj_property name="ElementShortName">rParity1[127:0]</obj_property>
+         <obj_property name="ObjectShortName">rParity1[127:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/write_en_tail" type="logic">
+         <obj_property name="ElementShortName">write_en_tail</obj_property>
+         <obj_property name="ObjectShortName">write_en_tail</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/write_addr_tail" type="array">
+         <obj_property name="ElementShortName">write_addr_tail[6:0]</obj_property>
+         <obj_property name="ObjectShortName">write_addr_tail[6:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/rTail" type="array">
+         <obj_property name="ElementShortName">rTail[127:0]</obj_property>
+         <obj_property name="ObjectShortName">rTail[127:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/two_decoders_over" type="logic">
+         <obj_property name="ElementShortName">two_decoders_over</obj_property>
+         <obj_property name="ObjectShortName">two_decoders_over</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/decode_enable" type="logic">
+         <obj_property name="ElementShortName">decode_enable</obj_property>
+         <obj_property name="ObjectShortName">decode_enable</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/decode_over_0" type="logic">
+         <obj_property name="ElementShortName">decode_over_0</obj_property>
+         <obj_property name="ObjectShortName">decode_over_0</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/decode_over_1" type="logic">
+         <obj_property name="ElementShortName">decode_over_1</obj_property>
+         <obj_property name="ObjectShortName">decode_over_1</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group32875" type="group">
+      <obj_property name="label">decoder 0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_0/clk_pcie" type="logic">
+         <obj_property name="ElementShortName">clk_pcie</obj_property>
+         <obj_property name="ObjectShortName">clk_pcie</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_0/clk_dec" type="logic">
+         <obj_property name="ElementShortName">clk_dec</obj_property>
+         <obj_property name="ObjectShortName">clk_dec</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_0/cb_length" type="array">
+         <obj_property name="ElementShortName">cb_length[12:0]</obj_property>
+         <obj_property name="ObjectShortName">cb_length[12:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_0/parallel_degree" type="array">
+         <obj_property name="ElementShortName">parallel_degree[3:0]</obj_property>
+         <obj_property name="ObjectShortName">parallel_degree[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_0/iter_max" type="array">
+         <obj_property name="ElementShortName">iter_max[3:0]</obj_property>
+         <obj_property name="ObjectShortName">iter_max[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_0/wr_en_D" type="logic">
+         <obj_property name="ElementShortName">wr_en_D</obj_property>
+         <obj_property name="ObjectShortName">wr_en_D</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_0/rst_dec" type="logic">
+         <obj_property name="ElementShortName">rst_dec</obj_property>
+         <obj_property name="ObjectShortName">rst_dec</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_0/start_decode" type="logic">
+         <obj_property name="ElementShortName">start_decode</obj_property>
+         <obj_property name="ObjectShortName">start_decode</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_0/dec_sm" type="array">
+         <obj_property name="ElementShortName">dec_sm[1:0]</obj_property>
+         <obj_property name="ObjectShortName">dec_sm[1:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_0/dec_en" type="logic">
+         <obj_property name="ElementShortName">dec_en</obj_property>
+         <obj_property name="ObjectShortName">dec_en</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_0/dec_over" type="logic">
+         <obj_property name="ElementShortName">dec_over</obj_property>
+         <obj_property name="ObjectShortName">dec_over</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_0/crc_result" type="logic">
+         <obj_property name="ElementShortName">crc_result</obj_property>
+         <obj_property name="ObjectShortName">crc_result</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_0/Decode_Result_Start" type="logic">
+         <obj_property name="ElementShortName">Decode_Result_Start</obj_property>
+         <obj_property name="ObjectShortName">Decode_Result_Start</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_0/end_decode" type="logic">
+         <obj_property name="ElementShortName">end_decode</obj_property>
+         <obj_property name="ObjectShortName">end_decode</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_0/wr_en_D" type="logic">
+         <obj_property name="ElementShortName">wr_en_D</obj_property>
+         <obj_property name="ObjectShortName">wr_en_D</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_0/dec_cnt" type="array">
+         <obj_property name="ElementShortName">dec_cnt[3:0]</obj_property>
+         <obj_property name="ObjectShortName">dec_cnt[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_0/rd_addr_SYS" type="array">
+         <obj_property name="ElementShortName">rd_addr_SYS[9:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_addr_SYS[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_0/rd_data_SYS" type="array">
+         <obj_property name="ElementShortName">rd_data_SYS[55:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_data_SYS[55:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_0/rd_addr_PAR" type="array">
+         <obj_property name="ElementShortName">rd_addr_PAR[9:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_addr_PAR[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_0/rd_data_PAR0" type="array">
+         <obj_property name="ElementShortName">rd_data_PAR0[55:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_data_PAR0[55:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_0/rd_data_PAR1" type="array">
+         <obj_property name="ElementShortName">rd_data_PAR1[55:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_data_PAR1[55:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_0/rd_addr_TAIL" type="array">
+         <obj_property name="ElementShortName">rd_addr_TAIL[2:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_addr_TAIL[2:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_0/rd_data_TAIL" type="array">
+         <obj_property name="ElementShortName">rd_data_TAIL[13:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_data_TAIL[13:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group37208" type="group">
+      <obj_property name="label">decoder 1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_1/clk_pcie" type="logic">
+         <obj_property name="ElementShortName">clk_pcie</obj_property>
+         <obj_property name="ObjectShortName">clk_pcie</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_1/clk_dec" type="logic">
+         <obj_property name="ElementShortName">clk_dec</obj_property>
+         <obj_property name="ObjectShortName">clk_dec</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_1/cb_length" type="array">
+         <obj_property name="ElementShortName">cb_length[12:0]</obj_property>
+         <obj_property name="ObjectShortName">cb_length[12:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_1/parallel_degree" type="array">
+         <obj_property name="ElementShortName">parallel_degree[3:0]</obj_property>
+         <obj_property name="ObjectShortName">parallel_degree[3:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_1/iter_max" type="array">
+         <obj_property name="ElementShortName">iter_max[3:0]</obj_property>
+         <obj_property name="ObjectShortName">iter_max[3:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_1/dec_en" type="logic">
+         <obj_property name="ElementShortName">dec_en</obj_property>
+         <obj_property name="ObjectShortName">dec_en</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_1/wr_en_D" type="logic">
+         <obj_property name="ElementShortName">wr_en_D</obj_property>
+         <obj_property name="ObjectShortName">wr_en_D</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_1/wr_addr_D" type="array">
+         <obj_property name="ElementShortName">wr_addr_D[10:0]</obj_property>
+         <obj_property name="ObjectShortName">wr_addr_D[10:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_1/decode_addr_D" type="array">
+         <obj_property name="ElementShortName">decode_addr_D[6:0]</obj_property>
+         <obj_property name="ObjectShortName">decode_addr_D[6:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_1/decode_D" type="array">
+         <obj_property name="ElementShortName">decode_D[63:0]</obj_property>
+         <obj_property name="ObjectShortName">decode_D[63:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_1/dec_sm" type="array">
+         <obj_property name="ElementShortName">dec_sm[1:0]</obj_property>
+         <obj_property name="ObjectShortName">dec_sm[1:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_1/rst_dec" type="logic">
+         <obj_property name="ElementShortName">rst_dec</obj_property>
+         <obj_property name="ObjectShortName">rst_dec</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_1/start_decode" type="logic">
+         <obj_property name="ElementShortName">start_decode</obj_property>
+         <obj_property name="ObjectShortName">start_decode</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_1/end_decode" type="logic">
+         <obj_property name="ElementShortName">end_decode</obj_property>
+         <obj_property name="ObjectShortName">end_decode</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_1/dec_over" type="logic">
+         <obj_property name="ElementShortName">dec_over</obj_property>
+         <obj_property name="ObjectShortName">dec_over</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_1/crc_result" type="logic">
+         <obj_property name="ElementShortName">crc_result</obj_property>
+         <obj_property name="ObjectShortName">crc_result</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/test_chnl_turbo_decoder/chnl_turbo_dec_inst/turbo_decoder_wrapper_1/Decode_Result_Start" type="logic">
+         <obj_property name="ElementShortName">Decode_Result_Start</obj_property>
+         <obj_property name="ObjectShortName">Decode_Result_Start</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

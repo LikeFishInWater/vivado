@@ -1,0 +1,121 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Jun 29 15:08:15 2016
+# Process ID: 10320
+# Log file: F:/PCIe-Turbo/pcie_turbo_debug/vivado.log
+# Journal file: F:/PCIe-Turbo/pcie_turbo_debug\vivado.jou
+#-----------------------------------------------------------
+INFO: [Common 17-724] Xilinx Tcl Store apps are automatically updated.
+start_gui
+open_project F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:56 ; elapsed = 00:00:41 . Memory (MB): peak = 1065.125 ; gain = 515.242
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [xilinx.com:ip:pcie3_7x:4.0-2148] PCIeGen2x8If128: 11 - false 
+INFO: [Common 17-14] Message 'xilinx.com:ip:pcie3_7x:4.0 2148' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jun 29 17:03:35 2016...

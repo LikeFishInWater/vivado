@@ -1,0 +1,528 @@
+/*
+
+Vivado v2015.2 (64-bit)
+SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+Process ID: 10760
+
+Current time: 	7/7/16 2:38:55 PM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=SimSun,name=ËÎÌו,style=plain,size=12
+
+Java version: 	1.8.0_25 64-bit
+Java home: 	D:/Xilinx/Vivado/2015.2/tps/win64/jre
+
+User name: 	Yang
+User directory: F:/PCIe-Turbo/pcie_turbo_debug
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+Vivado preferences path: C:/Users/Yang/AppData/Roaming/Xilinx/Vivado/2015.2/vivado.ini
+Vivado layouts directory: C:/Users/Yang/AppData/Roaming/Xilinx/Vivado/2015.2/layouts/application
+
+GUI allocated memory:	140 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 370 MB
+
+*/
+
+// TclEventType: START_GUI
+// HColorUtils.generateUniqueColorPalette (num colors: 56) elapsed time: 1.3s
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 37 MB (+36624kb) [00:00:12]
+// [Engine Memory]: 347 MB (+212806kb) [00:00:12]
+// TclEventType: PROJECT_OPEN_DIALOG
+// cp:P (cl:JFrame):  Open Project : addNotify
+// Opening Vivado Project: F:\PCIe-Turbo\pcie_turbo_debug\pcie_turbo.xpr. Version: Vivado v2015.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// [Engine Memory]: 399 MB (+35867kb) [00:00:17]
+// HMemoryUtils.trashcanNow. Engine heap size: 399 MB. GUI used memory: 31 MB. Current time: 7/7/16 2:38:57 PM CST
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 454 MB (+36422kb) [00:00:22]
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 481 MB (+4542kb) [00:00:27]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 511 MB. GUI used memory: 29 MB. Current time: 7/7/16 2:39:12 PM CST
+// [Engine Memory]: 511 MB (+6450kb) [00:00:32]
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 49 MB (+10715kb) [00:00:36]
+// [Engine Memory]: 561 MB (+25936kb) [00:00:38]
+// [GUI Memory]: 123 MB (+74154kb) [00:00:42]
+// [Engine Memory]: 698 MB (+114221kb) [00:00:42]
+// [Engine Memory]: 734 MB (+410kb) [00:00:44]
+// [Engine Memory]: 815 MB (+46833kb) [00:00:45]
+// [GUI Memory]: 130 MB (+1360kb) [00:00:45]
+// [Engine Memory]: 875 MB (+19769kb) [00:00:51]
+// [GUI Memory]: 142 MB (+5372kb) [00:00:58]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2015.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 92 MB. Current time: 7/7/16 2:39:42 PM CST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: pcie_turbo; location: F:/PCIe-Turbo/pcie_turbo_debug; part: xc7vx690tffg1157-2
+// Tcl Message: open_project: Time (s): cpu = 00:01:08 ; elapsed = 00:00:53 . Memory (MB): peak = 1104.289 ; gain = 554.297 
+dismissDialog("Open Project"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// PAPropertyPanels.initPanels (VC709Gen2x8If128.v) elapsed time: 0.2s
+// Elapsed time: 317 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_pcie_turbo (VC709Gen2x8If128.v)]", 2, true); // A:k (H:JPanel, cl:JFrame) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_pcie_turbo (VC709Gen2x8If128.v)]", 2); // A:k (H:JPanel, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_pcie_turbo (VC709Gen2x8If128.v), pcie3_7x_0_i - PCIeGen2x8If128 (PCIeGen2x8If128.xci)]", 3); // A:k (H:JPanel, cl:JFrame)
+// ap:bI (cl:JFrame): Show IP Hierarchy: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ap:bI)
+dismissDialog("Show IP Hierarchy"); // ap:bI (cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_pcie_turbo (VC709Gen2x8If128.v), riffa - riffa_wrapper_vc709 (riffa_wrapper_vc709.v)]", 4, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_pcie_turbo (VC709Gen2x8If128.v), chnl_turbo_decoder_inst_i - chnl_parallel_turbo_decoder (chnl_parallel_turbo_decoder.v)]", 5, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_pcie_turbo (VC709Gen2x8If128.v), riffa - riffa_wrapper_vc709 (riffa_wrapper_vc709.v)]", 4, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_pcie_turbo (VC709Gen2x8If128.v), chnl_turbo_decoder_inst_i - chnl_parallel_turbo_decoder (chnl_parallel_turbo_decoder.v)]", 5, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_pcie_turbo (VC709Gen2x8If128.v), chnl_turbo_decoder_inst_i - chnl_parallel_turbo_decoder (chnl_parallel_turbo_decoder.v)]", 5, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_pcie_turbo (VC709Gen2x8If128.v), chnl_turbo_decoder_inst_i - chnl_parallel_turbo_decoder (chnl_parallel_turbo_decoder.v)]", 5, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_pcie_turbo (VC709Gen2x8If128.v), chnl_turbo_decoder_inst_i - chnl_parallel_turbo_decoder (chnl_parallel_turbo_decoder.v), clk_250_div_inst - clk_wiz_250_100 (clk_wiz_250_100.xci)]", 6, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_pcie_turbo (VC709Gen2x8If128.v), chnl_turbo_decoder_inst_i - chnl_parallel_turbo_decoder (chnl_parallel_turbo_decoder.v), turbo_decoder_wrapper_0 - TurboDecoderWrapper (TurboDecoderWrapper.v)]", 7, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_pcie_turbo (VC709Gen2x8If128.v), chnl_turbo_decoder_inst_i - chnl_parallel_turbo_decoder (chnl_parallel_turbo_decoder.v), turbo_decoder_wrapper_1 - TurboDecoderWrapper (TurboDecoderWrapper.v)]", 8, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_pcie_turbo (VC709Gen2x8If128.v), chnl_turbo_decoder_inst_i - chnl_parallel_turbo_decoder (chnl_parallel_turbo_decoder.v), turbo_decoder_wrapper_0 - TurboDecoderWrapper (TurboDecoderWrapper.v)]", 7, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_pcie_turbo (VC709Gen2x8If128.v), chnl_turbo_decoder_inst_i - chnl_parallel_turbo_decoder (chnl_parallel_turbo_decoder.v), clk_250_div_inst - clk_wiz_250_100 (clk_wiz_250_100.xci)]", 6, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_pcie_turbo (VC709Gen2x8If128.v), chnl_turbo_decoder_inst_i - chnl_parallel_turbo_decoder (chnl_parallel_turbo_decoder.v), turbo_decoder_wrapper_0 - TurboDecoderWrapper (TurboDecoderWrapper.v)]", 7, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_pcie_turbo (VC709Gen2x8If128.v), chnl_turbo_decoder_inst_i - chnl_parallel_turbo_decoder (chnl_parallel_turbo_decoder.v), turbo_decoder_wrapper_1 - TurboDecoderWrapper (TurboDecoderWrapper.v)]", 8, true); // A:k (H:JPanel, cl:JFrame) - Node
+// Elapsed time: 69 seconds
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 162, 267); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 169, 295); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 228, 290); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 233, 290); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 233, 290, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 103, 309); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 103, 309, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 104, 331); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 104, 331, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 127, 331); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 127, 331, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 172, 329); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 156, 330); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 156, 330, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_pcie_turbo (VC709Gen2x8If128.v), chnl_turbo_decoder_inst_i - chnl_parallel_turbo_decoder (chnl_parallel_turbo_decoder.v)]", 5, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_pcie_turbo (VC709Gen2x8If128.v), chnl_turbo_decoder_inst_i - chnl_parallel_turbo_decoder (chnl_parallel_turbo_decoder.v)]", 5, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_pcie_turbo (VC709Gen2x8If128.v), chnl_turbo_decoder_inst_i - chnl_parallel_turbo_decoder (chnl_parallel_turbo_decoder.v)]", 5, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 67, 118); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "chnl_parallel_turbo_decoder.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 76, 136); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 76, 136, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 70, 161); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 70, 161, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 84, 182); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 84, 182, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 80, 201); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 80, 201, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 85, 220); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 85, 220, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// [GUI Memory]: 150 MB (+1104kb) [00:14:03]
+// Elapsed time: 799 seconds
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 174, 528); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 141, 526); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 141, 526, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 120, 504); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 120, 504, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 133, 486); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 133, 486, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 134, 468); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 134, 468, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 137, 452); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 137, 452, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 113, 419); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 113, 419, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 106, 412); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 106, 412, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 98, 394); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 98, 394, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 96, 374); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 96, 374, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 88, 387); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 88, 387, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 92, 422); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 92, 422, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 101, 439); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 135, 446); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 135, 446, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 132, 467); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 132, 467, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 139, 479); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 139, 479, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 143, 506); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 143, 506, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 131, 533); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 131, 533, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 85, 562); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 85, 562, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 46, 529); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 46, 529, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 39, 505); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 39, 505, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// [GUI Memory]: 158 MB (+131kb) [00:21:50]
+// Elapsed time: 34 seconds
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 174, 97); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 98, 444); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 98, 444, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 77, 474); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 77, 474, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 77, 499); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 77, 499, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 137, 500); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 137, 500, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 179, 498); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 140, 547); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 125, 535); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 125, 535, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 112, 502); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 112, 502, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 112, 483); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 112, 483, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 112, 467); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 112, 467, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 112, 453); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 112, 453, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 112, 436); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 112, 436, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 116, 405); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 116, 405, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 117, 388); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 117, 388, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 118, 368); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 118, 368, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 118, 353); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 118, 353, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 119, 369); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 119, 369, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 119, 392); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 119, 392, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 120, 413); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 120, 413, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 860, 323); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 165 MB (+44kb) [00:23:21]
+// Elapsed time: 146 seconds
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 816, 211); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 67, 510); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 67, 510, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 62, 484); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 62, 484, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 62, 465); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 62, 465, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 59 seconds
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 68, 509); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 68, 509, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 66, 491); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 66, 491, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 66, 471); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 66, 471, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 63, 488); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 63, 488, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 65, 507); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 65, 507, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 143, 539); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 143, 539, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// [GUI Memory]: 174 MB (+666kb) [00:26:30]
+// Elapsed time: 99 seconds
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 209, 414); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 139 seconds
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 112, 518); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 33, 17); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 33, 17, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 31, 34); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 31, 34, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// [GUI Memory]: 183 MB (+66kb) [00:30:20]
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 162 MB. Current time: 7/7/16 3:09:45 PM CST
+// Elapsed time: 95 seconds
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 151, 492); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 14, 74); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 14, 74, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 71, 73); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 71, 73, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 52, 86); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 52, 86, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 78, 68); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 78, 68, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 67, 84); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 67, 84, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 38, 104); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 38, 104, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 45, 86); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 45, 86, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 66, 71); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 66, 71, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 50, 105); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 50, 105, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 68, 90); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 68, 90, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 118, 82); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 118, 82, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 220, 62); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 213, 65); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 213, 65, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 77 seconds
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 133, 96); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 133, 96, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 137, 83); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 137, 83, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 141, 89); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 143, 87, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 177, 70); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 177, 70, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 157, 82); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 157, 82, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 150, 61); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 150, 61, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 149, 82); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 149, 82, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 115, 106); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 115, 106, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 126, 87); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 126, 87, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 141, 68); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 141, 68, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 149, 85); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 149, 85, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 139, 99); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 145, 83); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 145, 83, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 145, 68); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 145, 68, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 145, 75); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 145, 76, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey(null, null, 'z');
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 151, 142); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 32, 98); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 23, 98); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 38, 86); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 24, 147); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 230, 388); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 42 seconds
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 102, 295); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 102, 295, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 112, 310); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 112, 310, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 130, 358); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 130, 358, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 19 seconds
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 114, 520); // bj:J (JPanel:JComponent, cl:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "module"); // o:ao (f:JComboBox, cl:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "module"); // o:ao (f:JComboBox, cl:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "module"); // o:ao (f:JComboBox, cl:JFrame)
+// [GUI Memory]: 193 MB (+726kb) [00:35:01]
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 183, 456); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 214, 486); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 34 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_pcie_turbo (VC709Gen2x8If128.v), chnl_turbo_decoder_inst_i - chnl_parallel_turbo_decoder (chnl_parallel_turbo_decoder.v)]", 5); // A:k (H:JPanel, cl:JFrame)
+// [GUI Memory]: 204 MB (+867kb) [00:35:45]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_pcie_turbo (VC709Gen2x8If128.v), chnl_turbo_decoder_inst_i - chnl_parallel_turbo_decoder (chnl_parallel_turbo_decoder.v), clk_250_div_inst - clk_wiz_250_100 (clk_wiz_250_100.xci)]", 6, false); // A:k (H:JPanel, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 252, 184); // bj:J (JPanel:JComponent, cl:JFrame)
+// HOptionPane Error: "The paste failed. The clipboard content is not text. (Paste Error)"
+typeControlKey((HResource) null, "chnl_parallel_turbo_decoder.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectButton("RDIResource.HInputHandler_PASTE_FAILED_CLIPBOARD_CONTENT_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "250"); // o:ao (f:JComboBox, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 175, 538); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 116, 443); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 72, 444); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 124, 375); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 157, 377); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 157, 377, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 215, 364); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 215, 364, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 193, 364); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 193, 364, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 52, 365); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 52, 365, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 162, 368); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 162, 368, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 74, 368); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 74, 368, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 176, 368); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 176, 368, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 91, 370); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 91, 370, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 166, 370); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 166, 370, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 75, 368); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 75, 368, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 162, 368); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 163, 368, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 44 seconds
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 190, 463); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 110, 283); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 109, 283, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 136, 301); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 136, 301, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 124, 337); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 124, 337, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 112, 358); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 112, 358, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 113, 418); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 113, 418, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 110, 453); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 110, 453, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// [GUI Memory]: 214 MB (+254kb) [00:41:33]
+// Elapsed time: 356 seconds
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 62, 477); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 35, 327); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 35, 327, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 117, 327); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 117, 327, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 150, 329); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 150, 329, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 51, 347); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 51, 347, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 72, 370); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 72, 370, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 89 seconds
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 265, 291); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 225 MB (+648kb) [00:53:33]
+// Elapsed time: 667 seconds
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 119, 535); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 119, 535, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// [GUI Memory]: 237 MB (+214kb) [00:57:01]
+// Elapsed time: 84 seconds
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 177, 471); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 177, 471, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 153, 549); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 153, 549, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 18 seconds
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 185, 545); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 185, 545, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 354, 502); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 249 MB (+164kb) [00:57:56]
+// Elapsed time: 168 seconds
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 26); // w:Y (v:H, cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 27, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+// PAPropertyPanels.initPanels (impl_1) elapsed time: 0.6s
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; write_bitstream Complete! ; 100 ; -0.11071499437093735 ; -0.6638965010643005 ; -0.33229419589042664 ; -0.45777249336242676 ; -1.0192245244979858 ; 0 ; 25.54847526550293 ; 110676 ; 6.76800537109375 ; 58638 ; 35.88435363769531 ; 527 ; 0.0 ; 0 ; Wed Jun 08 12:29:46 CST 2016 ; 01:14:48 ; Vivado Implementation Defaults (Vivado Implementation 2015) ; xc7vx690tffg1157-2 ; Vivado Implementation Defaults", 1, "constrs_1", 1, false); // W:av (JViewport:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 223, 441); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 220, 463); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 220, 463, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 220, 463); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 204, 466); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 204, 466, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 201, 538); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 201, 538, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 174, 543); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 174, 543, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 166, 547); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 166, 547, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 172, 543); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 172, 543, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 213 MB. Current time: 7/7/16 3:39:45 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 210 MB. Current time: 7/7/16 4:09:47 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 141 MB. Current time: 7/7/16 4:39:46 PM CST
+// Elapsed time: 4103 seconds
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 165, 534); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 165, 534, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 115, 525); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 115, 525, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 157, 518); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 157, 518, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 144, 339); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 144, 339, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 152, 356); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 152, 356, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 141, 380); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 141, 380, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 139, 403); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 139, 403, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 198, 405); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 198, 405, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 234, 407); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 234, 407, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+closeMainWindow("pcie_turbo - [F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.xpr] - Vivado 2015.2"); // cl:JFrame
+// aR:ah (cl:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, aR:ah)
+dismissDialog("Save Project"); // aR:ah (cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 294, 408); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 294, 408, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 202, 411); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 202, 411, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 215, 392); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 215, 392, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 210, 408); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 210, 408, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 210, 426); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 210, 426, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 204, 466); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 204, 466, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 131, 468); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 131, 468, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 101, 527); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 101, 527, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 141, 537); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 141, 537, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 289, 403); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 289, 403, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 223, 411); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 223, 411, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 237, 386); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("chnl_parallel_turbo_decoder.v", 237, 386, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 133 MB. Current time: 7/7/16 5:09:47 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 168 MB. Current time: 7/7/16 5:39:47 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 195 MB. Current time: 7/7/16 6:09:48 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 195 MB. Current time: 7/7/16 6:39:48 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 196 MB. Current time: 7/7/16 7:09:48 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 195 MB. Current time: 7/7/16 7:39:48 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 195 MB. Current time: 7/7/16 8:09:49 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 195 MB. Current time: 7/7/16 8:39:49 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 195 MB. Current time: 7/7/16 9:09:49 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 195 MB. Current time: 7/7/16 9:39:50 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 195 MB. Current time: 7/7/16 10:09:50 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 195 MB. Current time: 7/7/16 10:39:50 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 195 MB. Current time: 7/7/16 11:09:51 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 195 MB. Current time: 7/7/16 11:39:51 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 195 MB. Current time: 7/8/16 12:09:51 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 195 MB. Current time: 7/8/16 12:39:51 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 195 MB. Current time: 7/8/16 1:09:52 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 195 MB. Current time: 7/8/16 1:39:52 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 195 MB. Current time: 7/8/16 2:09:52 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 195 MB. Current time: 7/8/16 2:39:53 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 195 MB. Current time: 7/8/16 3:09:53 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 195 MB. Current time: 7/8/16 3:39:53 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 195 MB. Current time: 7/8/16 4:09:53 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 195 MB. Current time: 7/8/16 4:39:54 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 195 MB. Current time: 7/8/16 5:09:54 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 195 MB. Current time: 7/8/16 5:39:54 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 195 MB. Current time: 7/8/16 6:09:55 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 195 MB. Current time: 7/8/16 6:39:55 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 195 MB. Current time: 7/8/16 7:09:55 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 195 MB. Current time: 7/8/16 7:39:56 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 195 MB. Current time: 7/8/16 8:09:56 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 195 MB. Current time: 7/8/16 8:39:56 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 195 MB. Current time: 7/8/16 9:09:56 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 195 MB. Current time: 7/8/16 9:39:57 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 175 MB. Current time: 7/8/16 10:09:57 AM CST

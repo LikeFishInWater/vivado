@@ -1,0 +1,140 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_MaxFunction.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Modu_MaxFunction
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_Shift_Reg8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Modu_Shift_Reg8
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_multiply_opt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Modu_multiply_opt
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_Max8_Function.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Modu_Max8_Function
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_sysAddLePar_Compute.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Modu_sysAddLePar_Compute
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_LLR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Modu_LLR
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_Interleave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Modu_Interleave
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_Deinterleave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Modu_Deinterleave
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_Butterfly.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Modu_Butterfly
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_AddrCal1Step.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Modu_AddrCal1Step
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_SelectBUF_3BUF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Modu_SelectBUF_3BUF
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_SaveLeInitWriteAddr_3BUF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Modu_SaveLeInitWriteAddr_3BUF
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_Reorder_writeEn_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Modu_Reorder_writeEn_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_Reorder_writeEn_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Modu_Reorder_writeEn_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_FPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Modu_FPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_Distributed_Single_RAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Modu_Distributed_Single_RAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_Distributed_Dual_RAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Modu_Distributed_Dual_RAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_CalcReadAddr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Modu_CalcReadAddr
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_CalcLeWriteAddr_3BUF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Modu_CalcLeWriteAddr_3BUF
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_CalcBufA_Addr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Modu_CalcBufA_Addr
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_CalcBufAddr_3BUF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Modu_CalcBufAddr_3BUF
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_BPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Modu_BPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_Block_Dual_RAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Modu_Block_Dual_RAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_3BUF_w.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Modu_3BUF_w
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/ip/crc_blk_mem_1w_8w/blk_mem_gen_v8_2/simulation/blk_mem_gen_v8_2.v" into library blk_mem_gen_v8_2
+INFO: [VRFC 10-311] analyzing module STATE_LOGIC_v8_2
+INFO: [VRFC 10-311] analyzing module beh_vlog_muxf7_v8_2
+INFO: [VRFC 10-311] analyzing module beh_vlog_ff_clr_v8_2
+INFO: [VRFC 10-311] analyzing module beh_vlog_ff_pre_v8_2
+INFO: [VRFC 10-311] analyzing module beh_vlog_ff_ce_clr_v8_2
+INFO: [VRFC 10-311] analyzing module write_netlist_v8_2
+INFO: [VRFC 10-311] analyzing module read_netlist_v8_2
+INFO: [VRFC 10-311] analyzing module blk_mem_axi_write_wrapper_beh_v8_2
+INFO: [VRFC 10-311] analyzing module blk_mem_axi_read_wrapper_beh_v8_2
+INFO: [VRFC 10-311] analyzing module blk_mem_axi_regs_fwd_v8_2
+INFO: [VRFC 10-311] analyzing module BLK_MEM_GEN_v8_2_output_stage
+INFO: [VRFC 10-311] analyzing module BLK_MEM_GEN_v8_2_softecc_output_reg_stage
+INFO: [VRFC 10-311] analyzing module BLK_MEM_GEN_v8_2_mem_module
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_v8_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/ip/crc_blk_mem_1w_8w/sim/crc_blk_mem_1w_8w.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module crc_blk_mem_1w_8w
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/new/parallel_crc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module parallel_crc
+INFO: [VRFC 10-311] analyzing module crc24_D1_type0
+INFO: [VRFC 10-311] analyzing module crc24_D2_type0
+INFO: [VRFC 10-311] analyzing module crc24_D3_type0
+INFO: [VRFC 10-311] analyzing module crc24_D4_type0
+INFO: [VRFC 10-311] analyzing module crc24_D5_type0
+INFO: [VRFC 10-311] analyzing module crc24_D6_type0
+INFO: [VRFC 10-311] analyzing module crc24_D7_type0
+INFO: [VRFC 10-311] analyzing module crc24_D8_type0
+INFO: [VRFC 10-311] analyzing module crc24_D1_type1
+INFO: [VRFC 10-311] analyzing module crc24_D2_type1
+INFO: [VRFC 10-311] analyzing module crc24_D3_type1
+INFO: [VRFC 10-311] analyzing module crc24_D4_type1
+INFO: [VRFC 10-311] analyzing module crc24_D5_type1
+INFO: [VRFC 10-311] analyzing module crc24_D6_type1
+INFO: [VRFC 10-311] analyzing module crc24_D7_type1
+INFO: [VRFC 10-311] analyzing module crc24_D8_type1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_SW_MAP_3BUF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Modu_SW_MAP_3BUF
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_LeBit_RAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Modu_LeBit_RAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_Init_Value.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Modu_Init_Value
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_D_RAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Modu_D_RAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_BPU_Tail.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Modu_BPU_Tail
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_Block_ROM_Para_P8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Modu_Block_ROM_Para_P8
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_Block_ROM_Para_P4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Modu_Block_ROM_Para_P4
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_Addr_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Modu_Addr_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/new/Turbo_CRC24.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Turbo_CRC24
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_Subdecoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Modu_Subdecoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_InputPara.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Modu_InputPara
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/ip/ila_turbo_wrapper/sim/ila_turbo_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ila_turbo_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/ip/dist_mem_gen_D_1/dist_mem_gen_v8_0/simulation/dist_mem_gen_v8_0.v" into library dist_mem_gen_v8_0
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_v8_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/ip/dist_mem_gen_D_1/sim/dist_mem_gen_D.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_D
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/ip/blk_mem_gen_tail/sim/blk_mem_gen_tail.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_tail
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/ip/blk_mem_gen/sim/blk_mem_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blk_mem_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/new/Modu_Decoder_New_CRC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Modu_Decoder_New_CRC
+WARNING: [VRFC 10-756] identifier decode_over is used before its declaration [F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/new/Modu_Decoder_New_CRC.v:155]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/new/TurboDecoderWrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TurboDecoderWrapper
+WARNING: [VRFC 10-756] identifier end_decode is used before its declaration [F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/new/TurboDecoderWrapper.v:108]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/ip/clk_wiz_250_100/clk_wiz_250_100_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_250_100_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/ip/clk_wiz_250_100/clk_wiz_250_100.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_250_100
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/new/chnl_parallel_turbo_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module chnl_parallel_turbo_decoder
+WARNING: [VRFC 10-756] identifier cb_num is used before its declaration [F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/new/chnl_parallel_turbo_decoder.v:136]
+WARNING: [VRFC 10-756] identifier code_length is used before its declaration [F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/new/chnl_parallel_turbo_decoder.v:179]
+WARNING: [VRFC 10-756] identifier code_length is used before its declaration [F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/new/chnl_parallel_turbo_decoder.v:196]
+WARNING: [VRFC 10-756] identifier code_length is used before its declaration [F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/new/chnl_parallel_turbo_decoder.v:213]
+WARNING: [VRFC 10-756] identifier code_length is used before its declaration [F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/new/chnl_parallel_turbo_decoder.v:247]
+WARNING: [VRFC 10-756] identifier code_length is used before its declaration [F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/new/chnl_parallel_turbo_decoder.v:270]
+WARNING: [VRFC 10-756] identifier code_length is used before its declaration [F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/new/chnl_parallel_turbo_decoder.v:280]
+WARNING: [VRFC 10-756] identifier code_length is used before its declaration [F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/new/chnl_parallel_turbo_decoder.v:290]
+WARNING: [VRFC 10-756] identifier code_length is used before its declaration [F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sources_1/new/chnl_parallel_turbo_decoder.v:308]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.srcs/sim_1/imports/new/test_chnl_turbo_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_chnl_turbo_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

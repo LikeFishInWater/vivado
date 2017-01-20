@@ -1,0 +1,7 @@
+Running: xsim.dir/test_chnl_turbo_decoder_behav/xsimk.exe -simmode gui -wdb test_chnl_turbo_decoder_behav.wdb -simrunnum 0 -socket 54285
+Design successfully loaded
+Design Loading Memory Usage: 33056 KB (Peak: 33056 KB)
+Design Loading CPU Usage: 437 ms
+Simulation completed
+Simulation Memory Usage: 64180 KB (Peak: 64180 KB)
+Simulation CPU Usage: 191780 ms

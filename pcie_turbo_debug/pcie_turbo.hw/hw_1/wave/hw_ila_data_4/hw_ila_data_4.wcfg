@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Graduate/PCIe/Turbo/pcie_turbo_debug/pcie_turbo.hw/hw_1/wave/hw_ila_data_4/hw_ila_data_4.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="8" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject db_ref_id="1" fp_name="turbo_decoders[1].chnl_turbo_decoder_inst_i/turbo_decoder_wrapper_1/Decode_Result_Start" type="logic">
+      <obj_property name="ElementShortName">turbo_decoders[1].chnl_turbo_decoder_inst_i/turbo_decoder_wrapper_1/Decode_Result_Start</obj_property>
+      <obj_property name="ObjectShortName">turbo_decoders[1].chnl_turbo_decoder_inst_i/turbo_decoder_wrapper_1/Decode_Result_Start</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="turbo_decoders[1].chnl_turbo_decoder_inst_i/turbo_decoder_wrapper_1/dec_cnt" type="array">
+      <obj_property name="ElementShortName">turbo_decoders[1].chnl_turbo_decoder_inst_i/turbo_decoder_wrapper_1/dec_cnt[1:0]</obj_property>
+      <obj_property name="ObjectShortName">turbo_decoders[1].chnl_turbo_decoder_inst_i/turbo_decoder_wrapper_1/dec_cnt[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="turbo_decoders[1].chnl_turbo_decoder_inst_i/turbo_decoder_wrapper_1/dec_en" type="logic">
+      <obj_property name="ElementShortName">turbo_decoders[1].chnl_turbo_decoder_inst_i/turbo_decoder_wrapper_1/dec_en</obj_property>
+      <obj_property name="ObjectShortName">turbo_decoders[1].chnl_turbo_decoder_inst_i/turbo_decoder_wrapper_1/dec_en</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="turbo_decoders[1].chnl_turbo_decoder_inst_i/turbo_decoder_wrapper_1/dec_over_reg_n_0" type="logic">
+      <obj_property name="ElementShortName">turbo_decoders[1].chnl_turbo_decoder_inst_i/turbo_decoder_wrapper_1/dec_over_reg_n_0</obj_property>
+      <obj_property name="ObjectShortName">turbo_decoders[1].chnl_turbo_decoder_inst_i/turbo_decoder_wrapper_1/dec_over_reg_n_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="turbo_decoders[1].chnl_turbo_decoder_inst_i/turbo_decoder_wrapper_1/dec_sm" type="array">
+      <obj_property name="ElementShortName">turbo_decoders[1].chnl_turbo_decoder_inst_i/turbo_decoder_wrapper_1/dec_sm[1:0]</obj_property>
+      <obj_property name="ObjectShortName">turbo_decoders[1].chnl_turbo_decoder_inst_i/turbo_decoder_wrapper_1/dec_sm[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="turbo_decoders[1].chnl_turbo_decoder_inst_i/turbo_decoder_wrapper_1/end_decode" type="logic">
+      <obj_property name="ElementShortName">turbo_decoders[1].chnl_turbo_decoder_inst_i/turbo_decoder_wrapper_1/end_decode</obj_property>
+      <obj_property name="ObjectShortName">turbo_decoders[1].chnl_turbo_decoder_inst_i/turbo_decoder_wrapper_1/end_decode</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="turbo_decoders[1].chnl_turbo_decoder_inst_i/turbo_decoder_wrapper_1/rst_dec" type="logic">
+      <obj_property name="ElementShortName">turbo_decoders[1].chnl_turbo_decoder_inst_i/turbo_decoder_wrapper_1/rst_dec</obj_property>
+      <obj_property name="ObjectShortName">turbo_decoders[1].chnl_turbo_decoder_inst_i/turbo_decoder_wrapper_1/rst_dec</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="turbo_decoders[1].chnl_turbo_decoder_inst_i/turbo_decoder_wrapper_1/start_decode" type="logic">
+      <obj_property name="ElementShortName">turbo_decoders[1].chnl_turbo_decoder_inst_i/turbo_decoder_wrapper_1/start_decode</obj_property>
+      <obj_property name="ObjectShortName">turbo_decoders[1].chnl_turbo_decoder_inst_i/turbo_decoder_wrapper_1/start_decode</obj_property>
+   </wvobject>
+</wave_config>

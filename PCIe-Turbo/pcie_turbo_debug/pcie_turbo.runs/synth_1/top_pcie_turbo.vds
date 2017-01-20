@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Sun Dec 04 21:40:15 2016
+# Process ID: 14704
+# Log file: F:/projects/vivado/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.runs/synth_1/top_pcie_turbo.vds
+# Journal file: F:/projects/vivado/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top_pcie_turbo.tcl -notrace
+WARNING: [Vivado 12-818] No files matched 'F:/projects/vivado/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.runs/PCIeGen2x8If128_synth_1/PCIeGen2x8If128.dcp'
+ERROR: [Common 17-55] 'set_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+INFO: [Common 17-206] Exiting Vivado at Sun Dec 04 21:40:27 2016...

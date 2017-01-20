@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Tue May 17 22:00:31 2016
+# Process ID: 9048
+# Log file: C:/Graduate/PCIe/Turbo/pcie_turbo_debug/pcie_turbo.runs/ila_0_synth_1/ila_0.vds
+# Journal file: C:/Graduate/PCIe/Turbo/pcie_turbo_debug/pcie_turbo.runs/ila_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source ila_0.tcl -notrace
