@@ -20,6 +20,7 @@
       <Filter Type="Srcs"/>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/shiftreg.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/shiftreg.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -29,6 +30,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/functions.vh">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/functions.vh"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -37,6 +39,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/scsdpram.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/scsdpram.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -46,6 +49,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/fifo.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/fifo.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -55,6 +59,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/ff.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/ff.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -64,6 +69,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Turbo_Decoder_Verilog/Input_parameters.v">
         <FileInfo SFType="VHeader">
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../turbo_decoder_sim/turbo_decoder_sim.srcs/sources_1/imports/Turbo_Decoder_Verilog/Input_parameters.v"/>
           <Attr Name="ImportTime" Val="1452059645"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -72,6 +78,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Turbo_Decoder_Verilog/Modu_MaxFunction.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../turbo_decoder_sim/turbo_decoder_sim.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_MaxFunction.v"/>
           <Attr Name="ImportTime" Val="1320138826"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -81,6 +88,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/syncff.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/syncff.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -90,6 +98,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/rotate.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/rotate.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -99,6 +108,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/ram_2clk_1w_1r.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/ram_2clk_1w_1r.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -108,6 +118,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/ram_1clk_1w_1r.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/ram_1clk_1w_1r.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -117,6 +128,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/pipeline.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/pipeline.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -126,6 +138,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/one_hot_mux.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/one_hot_mux.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -135,6 +148,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/offset_to_mask.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/offset_to_mask.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -144,6 +158,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/widths.vh">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/widths.vh"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -152,6 +167,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/trellis.vh">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/trellis.vh"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -160,6 +176,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/types.vh">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/types.vh"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -168,6 +185,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/offset_flag_to_one_hot.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/offset_flag_to_one_hot.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -177,6 +195,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Turbo_Decoder_Verilog/Modu_Shift_Reg8.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../turbo_decoder_sim/turbo_decoder_sim.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_Shift_Reg8.v"/>
           <Attr Name="ImportTime" Val="1320138779"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -186,6 +205,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Turbo_Decoder_Verilog/Modu_multiply_opt.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../turbo_decoder_sim/turbo_decoder_sim.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_multiply_opt.v"/>
           <Attr Name="ImportTime" Val="1320138821"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -195,6 +215,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Turbo_Decoder_Verilog/Modu_Max8_Function.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../turbo_decoder_sim/turbo_decoder_sim.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_Max8_Function.v"/>
           <Attr Name="ImportTime" Val="1320138830"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -204,6 +225,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/tx_data_shift.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/tx_data_shift.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -213,6 +235,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/tx_data_fifo.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/tx_data_fifo.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -222,6 +245,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/sync_fifo.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/sync_fifo.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -231,6 +255,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/mux.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/mux.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -240,6 +265,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/cross_domain_signal.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/cross_domain_signal.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -249,6 +275,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/counter.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/counter.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -258,6 +285,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/async_fifo.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/async_fifo.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -267,6 +295,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Turbo_Decoder_Verilog/Modu_sysAddLePar_Compute.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../turbo_decoder_sim/turbo_decoder_sim.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_sysAddLePar_Compute.v"/>
           <Attr Name="ImportTime" Val="1320138890"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -276,6 +305,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Turbo_Decoder_Verilog/Modu_LLR.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../turbo_decoder_sim/turbo_decoder_sim.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_LLR.v"/>
           <Attr Name="ImportTime" Val="1320138376"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -285,6 +315,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Turbo_Decoder_Verilog/Modu_Interleave.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../turbo_decoder_sim/turbo_decoder_sim.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_Interleave.v"/>
           <Attr Name="ImportTime" Val="1320138296"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -294,6 +325,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Turbo_Decoder_Verilog/Modu_Deinterleave.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../turbo_decoder_sim/turbo_decoder_sim.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_Deinterleave.v"/>
           <Attr Name="ImportTime" Val="1320137804"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -303,6 +335,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Turbo_Decoder_Verilog/Modu_Butterfly.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../turbo_decoder_sim/turbo_decoder_sim.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_Butterfly.v"/>
           <Attr Name="ImportTime" Val="1320137607"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -312,6 +345,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Turbo_Decoder_Verilog/Modu_AddrCal1Step.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../turbo_decoder_sim/turbo_decoder_sim.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_AddrCal1Step.v"/>
           <Attr Name="ImportTime" Val="1320137051"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -321,6 +355,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/tx_port_writer.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/tx_port_writer.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -330,6 +365,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/tx_port_monitor_64.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/tx_port_monitor_64.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -339,6 +375,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/tx_port_monitor_32.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/tx_port_monitor_32.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -348,6 +385,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/tx_port_monitor_128.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/tx_port_monitor_128.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -357,6 +395,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/tx_port_channel_gate_64.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/tx_port_channel_gate_64.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -366,6 +405,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/tx_port_channel_gate_32.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/tx_port_channel_gate_32.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -375,6 +415,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/tx_port_channel_gate_128.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/tx_port_channel_gate_128.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -384,6 +425,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/tx_port_buffer_64.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/tx_port_buffer_64.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -393,6 +435,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/tx_port_buffer_32.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/tx_port_buffer_32.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -402,6 +445,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/tx_port_buffer_128.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/tx_port_buffer_128.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -411,6 +455,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/tx_hdr_fifo.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/tx_hdr_fifo.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -420,6 +465,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/tx_data_pipeline.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/tx_data_pipeline.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -429,6 +475,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/schedules.vh">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/schedules.vh"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -437,6 +484,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/tx_alignment_pipeline.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/tx_alignment_pipeline.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -446,6 +494,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/sg_list_requester.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/sg_list_requester.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -455,6 +504,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/sg_list_reader_64.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/sg_list_reader_64.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -464,6 +514,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/sg_list_reader_32.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/sg_list_reader_32.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -473,6 +524,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/sg_list_reader_128.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/sg_list_reader_128.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -482,6 +534,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/rx_port_requester_mux.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/rx_port_requester_mux.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -491,6 +544,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/rx_port_reader.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/rx_port_reader.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -500,6 +554,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/rx_port_channel_gate.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/rx_port_channel_gate.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -509,6 +564,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/fifo_packer_64.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/fifo_packer_64.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -518,6 +574,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/fifo_packer_32.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/fifo_packer_32.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -527,6 +584,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/fifo_packer_128.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/fifo_packer_128.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -536,6 +594,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/async_fifo_fwft.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/async_fifo_fwft.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -545,6 +604,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Turbo_Decoder_Verilog/Modu_SelectBUF_3BUF.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../turbo_decoder_sim/turbo_decoder_sim.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_SelectBUF_3BUF.v"/>
           <Attr Name="ImportTime" Val="1320138784"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -554,6 +614,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Turbo_Decoder_Verilog/Modu_SaveLeInitWriteAddr_3BUF.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../turbo_decoder_sim/turbo_decoder_sim.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_SaveLeInitWriteAddr_3BUF.v"/>
           <Attr Name="ImportTime" Val="1334627114"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -563,6 +624,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Turbo_Decoder_Verilog/Modu_Reorder_writeEn_1.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../turbo_decoder_sim/turbo_decoder_sim.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_Reorder_writeEn_1.v"/>
           <Attr Name="ImportTime" Val="1320138794"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -572,6 +634,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Turbo_Decoder_Verilog/Modu_Reorder_writeEn_0.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../turbo_decoder_sim/turbo_decoder_sim.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_Reorder_writeEn_0.v"/>
           <Attr Name="ImportTime" Val="1320138800"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -581,6 +644,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Turbo_Decoder_Verilog/Modu_FPU.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../turbo_decoder_sim/turbo_decoder_sim.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_FPU.v"/>
           <Attr Name="ImportTime" Val="1320138199"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -590,6 +654,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Turbo_Decoder_Verilog/Modu_Distributed_Single_RAM.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../turbo_decoder_sim/turbo_decoder_sim.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_Distributed_Single_RAM.v"/>
           <Attr Name="ImportTime" Val="1320138015"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -599,6 +664,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Turbo_Decoder_Verilog/Modu_Distributed_Dual_RAM.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../turbo_decoder_sim/turbo_decoder_sim.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_Distributed_Dual_RAM.v"/>
           <Attr Name="ImportTime" Val="1320137996"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -608,6 +674,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Turbo_Decoder_Verilog/Modu_CalcReadAddr.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../turbo_decoder_sim/turbo_decoder_sim.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_CalcReadAddr.v"/>
           <Attr Name="ImportTime" Val="1320137760"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -617,6 +684,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Turbo_Decoder_Verilog/Modu_CalcLeWriteAddr_3BUF.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../turbo_decoder_sim/turbo_decoder_sim.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_CalcLeWriteAddr_3BUF.v"/>
           <Attr Name="ImportTime" Val="1350541704"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -626,6 +694,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Turbo_Decoder_Verilog/Modu_CalcBufA_Addr.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../turbo_decoder_sim/turbo_decoder_sim.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_CalcBufA_Addr.v"/>
           <Attr Name="ImportTime" Val="1334629372"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -635,6 +704,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Turbo_Decoder_Verilog/Modu_CalcBufAddr_3BUF.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../turbo_decoder_sim/turbo_decoder_sim.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_CalcBufAddr_3BUF.v"/>
           <Attr Name="ImportTime" Val="1334630279"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -644,6 +714,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Turbo_Decoder_Verilog/Modu_BPU.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../turbo_decoder_sim/turbo_decoder_sim.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_BPU.v"/>
           <Attr Name="ImportTime" Val="1320137480"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -653,6 +724,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Turbo_Decoder_Verilog/Modu_Block_Dual_RAM.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../turbo_decoder_sim/turbo_decoder_sim.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_Block_Dual_RAM.v"/>
           <Attr Name="ImportTime" Val="1320137223"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -662,6 +734,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Turbo_Decoder_Verilog/Modu_3BUF_w.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../turbo_decoder_sim/turbo_decoder_sim.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_3BUF_w.v"/>
           <Attr Name="ImportTime" Val="1320136942"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -671,6 +744,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/tx_port_64.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/tx_port_64.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -680,6 +754,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/tx_port_32.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/tx_port_32.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -689,6 +764,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/tx_port_128.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/tx_port_128.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -698,6 +774,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/tx_engine_selector.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/tx_engine_selector.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -707,6 +784,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/tx_engine.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/tx_engine.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -716,6 +794,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/rx_port_64.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/rx_port_64.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -725,6 +804,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/rx_port_32.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/rx_port_32.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -734,6 +814,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/rx_port_128.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/rx_port_128.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -743,6 +824,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/register.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/register.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -752,6 +834,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/parallel_crc.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -759,6 +842,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Turbo_Decoder_Verilog/Modu_SW_MAP_3BUF.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../turbo_decoder_sim/turbo_decoder_sim.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_SW_MAP_3BUF.v"/>
           <Attr Name="ImportTime" Val="1320138767"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -768,6 +852,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Turbo_Decoder_Verilog/Modu_LeBit_RAM.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../turbo_decoder_sim/turbo_decoder_sim.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_LeBit_RAM.v"/>
           <Attr Name="ImportTime" Val="1350540817"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -777,6 +862,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Turbo_Decoder_Verilog/Modu_Init_Value.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../turbo_decoder_sim/turbo_decoder_sim.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_Init_Value.v"/>
           <Attr Name="ImportTime" Val="1320138264"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -786,6 +872,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Turbo_Decoder_Verilog/Modu_D_RAM.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../turbo_decoder_sim/turbo_decoder_sim.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_D_RAM.v"/>
           <Attr Name="ImportTime" Val="1320138076"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -795,6 +882,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Turbo_Decoder_Verilog/Modu_BPU_Tail.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../turbo_decoder_sim/turbo_decoder_sim.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_BPU_Tail.v"/>
           <Attr Name="ImportTime" Val="1320137563"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -804,6 +892,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Turbo_Decoder_Verilog/Modu_Block_ROM_Para_P8.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../turbo_decoder_sim/turbo_decoder_sim.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_Block_ROM_Para_P8.v"/>
           <Attr Name="ImportTime" Val="1451999381"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -813,6 +902,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Turbo_Decoder_Verilog/Modu_Block_ROM_Para_P4.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../turbo_decoder_sim/turbo_decoder_sim.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_Block_ROM_Para_P4.v"/>
           <Attr Name="ImportTime" Val="1451999378"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -822,6 +912,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Turbo_Decoder_Verilog/Modu_Addr_control.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../turbo_decoder_sim/turbo_decoder_sim.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_Addr_control.v"/>
           <Attr Name="ImportTime" Val="1350535589"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -831,6 +922,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/tx_multiplexer_64.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/tx_multiplexer_64.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -840,6 +932,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/tx_multiplexer_32.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/tx_multiplexer_32.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -849,6 +942,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/tx_multiplexer_128.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/tx_multiplexer_128.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -858,6 +952,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/ultrascale.vh">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/ultrascale.vh"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -866,6 +961,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/txr_engine_ultrascale.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/txr_engine_ultrascale.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -875,6 +971,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/tlp.vh">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/tlp.vh"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -883,6 +980,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/txr_engine_classic.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/txr_engine_classic.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -892,6 +990,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/txc_engine_ultrascale.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/txc_engine_ultrascale.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -901,6 +1000,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/txc_engine_classic.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/txc_engine_classic.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -910,6 +1010,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/rxr_engine_ultrascale.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/rxr_engine_ultrascale.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -919,6 +1020,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/rxr_engine_classic.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/rxr_engine_classic.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -928,6 +1030,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/rxc_engine_ultrascale.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/rxc_engine_ultrascale.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -937,6 +1040,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/rxc_engine_classic.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/rxc_engine_classic.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -946,6 +1050,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/reorder_queue_output.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/reorder_queue_output.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -955,6 +1060,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/reorder_queue_input.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/reorder_queue_input.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -964,6 +1070,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/interrupt_controller.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/interrupt_controller.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -973,6 +1080,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/demux.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/demux.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -982,6 +1090,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/channel_64.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/channel_64.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -991,6 +1100,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/channel_32.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/channel_32.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1000,6 +1110,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/channel_128.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/channel_128.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1009,6 +1120,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/Turbo_CRC24.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -1016,6 +1128,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Turbo_Decoder_Verilog/Modu_Subdecoder.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../turbo_decoder_sim/turbo_decoder_sim.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_Subdecoder.v"/>
           <Attr Name="ImportTime" Val="1350540835"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1025,6 +1138,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Turbo_Decoder_Verilog/Modu_InputPara.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../turbo_decoder_sim/turbo_decoder_sim.srcs/sources_1/imports/Turbo_Decoder_Verilog/Modu_InputPara.v"/>
           <Attr Name="ImportTime" Val="1350542563"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1034,6 +1148,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/tx_multiplexer.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/tx_multiplexer.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1043,6 +1158,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/tx_engine_ultrascale.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/tx_engine_ultrascale.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1052,6 +1168,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/tx_engine_classic.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/tx_engine_classic.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1061,6 +1178,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/rx_engine_ultrascale.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/rx_engine_ultrascale.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1070,6 +1188,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/rx_engine_classic.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/rx_engine_classic.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1079,6 +1198,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/reorder_queue.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/reorder_queue.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1088,6 +1208,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/riffa.vh">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/riffa.vh"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1096,6 +1217,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/registers.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/registers.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1105,6 +1227,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/recv_credit_flow_ctrl.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/recv_credit_flow_ctrl.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1114,6 +1237,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/interrupt.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/interrupt.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1123,6 +1247,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/channel.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/channel.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1132,6 +1257,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/Modu_Decoder_New_CRC.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -1139,6 +1265,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/TurboDecoderWrapper.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -1146,6 +1273,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/riffa.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/riffa.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1155,6 +1283,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/engine_layer.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../RIFFA_VC707_Demo_xiaoshi/RIFFA_VC707_Demo.srcs/riffa_hdl/engine_layer.v"/>
           <Attr Name="ImportTime" Val="1440553212"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1164,6 +1293,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/riffa_wrapper_vc709.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -1171,6 +1301,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/chnl_parallel_turbo_decoder.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -1178,6 +1309,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/riffa_hdl/VC709Gen2x8If128.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -1193,13 +1325,14 @@
       </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="top_pcie_turbo"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
       </Config>
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
       <Filter Type="Srcs"/>
       <File Path="$PSRCDIR/sim_1/imports/new/test_chnl_turbo_decoder.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/new/test_chnl_turbo_decoder.v"/>
           <Attr Name="ImportTime" Val="1463718631"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1282,8 +1415,7 @@
       </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="test_chnl_turbo_decoder"/>
-        <Option Name="TopLib" Val="xil_defaultlib"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
         <Option Name="SimMode" Val="post-implementation"/>
         <Option Name="SrcSet" Val="sources_1"/>
         <Option Name="XSimWcfgFile" Val="$PPRDIR/test_final_behav.wcfg"/>

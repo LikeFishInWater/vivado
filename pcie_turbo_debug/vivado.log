@@ -2,19 +2,18 @@
 # Vivado v2015.2 (64-bit)
 # SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
 # IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
-# Start of session at: Thu Jul 07 14:38:24 2016
-# Process ID: 10760
-# Log file: F:/PCIe-Turbo/pcie_turbo_debug/vivado.log
-# Journal file: F:/PCIe-Turbo/pcie_turbo_debug\vivado.jou
-#-----------------------------------------------------------start_gui
-oopen_project F:/PCIe-Turbo/pcie_turbo_debug/pcie_turbo.xprSScanning sources...FFinished scanning sourcesIINFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_FlowINFO: [IP_Flow 19-234] Refreshing IP repositINFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2015.2/data/ip'.
-open_project: Time (s): cpu = 00:01:08 ; elapsed = 00:00:53 . Memory (MB): peak = 1104.289 ; gain = 554.297
+# Start of session at: Sun Feb 19 13:59:23 2017
+# Process ID: 5076
+# Log file: F:/projects/vivado/pcie_turbo_debug/vivado.log
+# Journal file: F:/projects/vivado/pcie_turbo_debug\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/projects/vivado/pcie_turbo_debug/pcie_turbo.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:01:05 ; elapsed = 00:01:20 . Memory (MB): peak = 1077.375 ; gain = 507.832
 exit
-led
-update_compile_order -fileset sources_1
-update_compile_order -fileset sim_1
-update_compile_order -fileset sources_1
-update_compile_order -fileset sim_1
-exit
-INFO: [Common 17-206] Exiting Vivado at Thu Jul 07 14:39:57 2016...
+INFO: [Common 17-206] Exiting Vivado at Sun Feb 19 14:01:45 2017...
